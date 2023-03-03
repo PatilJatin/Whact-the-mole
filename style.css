@@ -7,7 +7,6 @@
 #wrapper{
     width: 100vw;
     height: 100vh;
-    /* background-image: url(./Images/); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,9 +40,7 @@
     height: 8rem;
     width: 10rem;
     padding: 1em;
-    z-index: 3;
     position: absolute;
-    z-index: -5;
 }
 
 .place-1{
