@@ -17,14 +17,10 @@ function randomSquare() {
                 score.textContent = result;
                 hitPositionID = null; 
                 randomPosition.classList.remove('mole');  
-                // let promise = new Promise(function(resolve , reject){
                     square.classList.add('gotcha');
-                // })
-            //    promise.then(
                     setTimeout(function (){
                         square.classList.remove('gotcha');
-                    },400) 
-            //    ) 
+                    },200) 
             }
         } )
     });
@@ -36,7 +32,7 @@ function randomSquare() {
 }
 
 function moveMole() {
-    speed = setInterval(randomSquare,4000);
+    speed = setInterval(randomSquare,500);
 }
 
 function countDown() {
